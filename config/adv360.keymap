@@ -29,11 +29,11 @@
         default_layer {
             display-name = "Base";
             bindings = <
-&kp EQUAL  &hm LS(N1) N1  &hm LS(N2) N2  &hm LS(N3) N3  &hm LS(N4) N4         &hm LS(N5) N5  &tog 1                                                                               &mo 3                  &hm RS(N6) N6    &hm RS(N7) N7  &hm RS(N8) N8  &hm RS(N9) N9  &hm RS(N0) N0  &hm LA(MINUS) MINUS
-&kp ESC    &hm LG(Q) Q    &hm LG(W) W    &kp E          &kp R                 &kp T          &hm LS(LG(LC(N4))) LS(LG(N4))                                                        &kp C_VOL_UP           &kp Y            &hm LG(U) U    &hm LG(I) I    &kp O          &kp P          &kp BSLH
-&kp TAB    &hm LG(A) A    &hm LG(S) S    &hm LG(D) D    &hm LG(F) F           &kp G          &kp LS(LG(N5))                 &kp LSHFT     &kp LCTRL         &kp RCTRL  &kp RSHFT  &hm C_MUTE C_VOL_DN    &kp H            &kp J          &kp K          &kp L          &kp SEMI       &kp SQT
-&kp LSHFT  &hm LG(Z) Z    &hm LG(X) X    &hm LG(C) C    &hm LG(V) V           &hm LG(B) B                                                 &kp LALT          &kp RALT                                     &hm RS(RG(N)) N  &kp M          &kp COMMA      &kp DOT        &kp FSLH       &kp RSHFT
-&mo 2      &kp GRAVE      &kp CAPS       &kp LEFT       &hm LS(LG(N2)) RIGHT                 &kp BSPC                       &hm LALT DEL  &hm ESC LGUI      &kp RGUI   &kp ENTER  &hm RIGHT_SHIFT SPACE                   &kp UP         &kp DOWN       &kp LBKT       &kp RBKT       &mo 2
+&kp EQUAL  &hm LS(N1) N1  &hm LS(N2) N2  &hm LS(N3) N3  &hm LS(N4) N4  &hm LS(N5) N5  &tog 1                                                                               &mo 3                  &hm RS(N6) N6    &hm RS(N7) N7  &hm RS(N8) N8  &hm RS(N9) N9  &hm RS(N0) N0  &hm LA(MINUS) MINUS
+&kp ESC    &hm LG(Q) Q    &hm LG(W) W    &kp E          &kp R          &kp T          &hm LS(LG(LC(N4))) LS(LG(N4))                                                        &kp C_VOL_UP           &kp Y            &hm LG(U) U    &hm LG(I) I    &kp O          &kp P          &kp BSLH
+&kp TAB    &hm LG(A) A    &hm LG(S) S    &hm LG(D) D    &hm LG(F) F    &kp G          &kp LS(LG(N5))                 &kp LSHFT     &kp LCTRL         &kp RCTRL  &kp RSHFT  &kp C_VOL_DN           &kp H            &kp J          &kp K          &kp L          &kp SEMI       &kp SQT
+&kp LSHFT  &hm LG(Z) Z    &hm LG(X) X    &hm LG(C) C    &hm LG(V) V    &hm LG(B) B                                                 &kp LALT          &kp RALT                                     &hm RS(RG(N)) N  &kp M          &kp COMMA      &kp DOT        &kp FSLH       &kp RSHFT
+&mo 2      &kp GRAVE      &kp CAPS       &kp LEFT       &kp RIGHT                     &kp BSPC                       &hm LALT DEL  &kp LEFT_GUI      &kp RGUI   &kp ENTER  &hm RIGHT_SHIFT SPACE                   &kp UP         &kp DOWN       &kp LBKT       &kp RBKT       &mo 2
             >;
         };
 
